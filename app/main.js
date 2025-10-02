@@ -1,4 +1,6 @@
 import { renderizar } from "./dist/js/uteis.js"
-import titulo from "./dist/js/componentes/titulo.js"
+import Titulo from "./dist/js/componentes/Titulo.js"
+import Formulario from "./dist/js/componentes/Formulario.js"
 
-renderizar(titulo);
+renderizar(Titulo);
+renderizar(Formulario());
